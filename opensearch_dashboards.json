@@ -1,7 +1,7 @@
 {
   "id": "securityDashboards",
-  "version": "2.11.1.0",
-  "opensearchDashboardsVersion": "2.11.1",
+  "version": "2.10.0",
+  "opensearchDashboardsVersion": "2.10.0",
   "configPath": [
     "opensearch_security"
   ],
