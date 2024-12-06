@@ -266,7 +266,7 @@ export function LoginPage(props: LoginPageDeps) {
           url={props.config.ui.basicauth.login.brandimage || defaultBrandImage}
         />
       )}
-      <EuiSpacer size="s" />
+      {/* <EuiSpacer size="s" />
       <EuiText size="m" textAlign="center">
         {props.config.ui.basicauth.login.title || ''}
       </EuiText>
@@ -274,7 +274,7 @@ export function LoginPage(props: LoginPageDeps) {
       <EuiText size="s" textAlign="center">
         {props.config.ui.basicauth.login.subtitle || ''}
       </EuiText>
-      <EuiSpacer size="s" />
+      <EuiSpacer size="s" /> */}
       <EuiForm component="form">
         {formOptions(props.config.auth.type)}
         {errorLabel}

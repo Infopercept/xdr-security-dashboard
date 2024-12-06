@@ -14,11 +14,28 @@
  */
 
 .login-wrapper {
-  margin: 10% auto;
-  width: 350px;
-  padding: 1rem;
-  position: relative;
+  width: 450px !important;
+  padding: 1rem !important;
+  position: sticky;
+  margin-top: 15rem !important;
+  float: right !important;
+  margin-right: 5rem !important;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .login-wrapper {
+
+    width: 100% !important; /* Adjust width for mobile */
+
+    float: none !important; /* Reset float for mobile */
+
+    margin-right: 0 !important; /* Remove margin-right for mobile */
+
+  }
+
+}
+
 
 .btn-login {
   width: 100%;
